@@ -56,6 +56,9 @@ li {
     background-color: #333;
     color: white;
 }
+.links {
+    text-color: black;
+}
 
 .dark-mode .container {
     background: #444;
