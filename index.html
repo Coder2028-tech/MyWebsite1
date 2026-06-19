@@ -1,51 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Portfolio</title>
+    <title>Riya Laheja - Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
 <body>
     <div class="container">
         <header>
-            <img src="profile.jpg" alt="Your Profile Picture" class="profile-pic">
+            <img src="profile.jpg" alt="Riya Laheja" class="profile-pic">
             <h1 id="name">Riya Laheja</h1>
             <p>Welcome to my portfolio! Here you can find my accomplishments, projects, and contact details.</p>
             <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
         </header>
         
+        <div class="tab-container">
+            <a href="index.html" class="tab active">Home</a>
+            <a href="aboutme.html" class="tab">About Me</a>
+            <a href="extracur.html" class="tab">Extracurriculars</a>
+            <a href="school.html" class="tab">Education</a>
+        </div>
+        
         <section id="about">
             <h2>About Me</h2>
-            <p> My name is Riya Laheja and I am a sophomore in highschool. I love computer science, engineering, and experimenting with both! I am currently looking for a summer internship where I can continue to pursue my passions</p>
-            <p> You can click on the following links to learn more about me:
+            <p>Passionate about applying analytical thinking, technical and computational skills, and creative problem-solving to develop impactful, innovative engineering and software solutions. Areas of interest: Computer Engineering, Artificial Intelligence, Materials Science, Robotics.</p>
+        </section>
+        
+        <section id="skills">
+            <h2>Technical Skills</h2>
             <ul>
-                <li> <a href = "extracur.html" class = "tab"> Extracurriculars List </a></li>
-                <li><a href = "passions.html" class = "tab"> Passions, Hobbies, Interests</a></li>
-                <li> <a href= "school.html" class = "tab"> School Courses and Grades</a> </li>
+                <li><b>Programming Languages:</b> Python, C/C++, HTML, CSS, JavaScript</li>
+                <li><b>Tools & Technologies:</b> GitHub, Deepnote, Arduino</li>
+                <li><b>Soft Skills:</b> Problem-solving, teamwork, leadership, communication</li>
             </ul>
-        </p>
         </section>
         
         <section id="projects">
-            <h2>My Projects</h2>
+            <h2>Projects & Research Experience</h2>
             <ul>
-                <li><a href="ch8.cpp">Arrays</a> - Various programs involving arrays.</li>
-                <li><a href="recursion.cpp">Recursion</a> - Various programs involving recursion.</li>
-                <li><a href="Flightscode.mp4">Flights Code Project Screen Recording</a> - Flight prediction code</li>
+                <li><b>AI Sleep Predictor</b> 
+                    <li>Built a machine learning model in Python that predicts optimal sleep hours </li>
+                    <li>Used inputs like screen time, daily activity, and schedule to make predictions</li>
+                    <li>Developed and tested it in Deepnote's notebook environment</li>
+                    <li>Handled the full pipeline: cleaning data, training the model, and checking accuracy</li>
+                </li>
+        </li>
+                <li><b>MIT Mantis Lab</b> 
+                    <li>Worked in the Kellis Group at MIT on a data visualization tool</li>
+                    <li>Implemented bubble-sizing controls to scale data points by different variables</li>
+                    <li>Built an agentic workflow to automate parts of the analysis process</li>
+                </li>
+                <li><b>Arduino Circuit Projects</b> 
+                    <li> Designed, wired, and programmed multiple interactive electronics projects at Storming Robots </li>
+                    <li>Took each project from circuit diagram to working build</li>
+                    <li>Combined hardware assembly with the code controlling sensors and motors</li>
+                </li>
+                <li><b>GitHub Portfolio</b> 
+                    <li>Maintain a set of public repositories spanning machine learning, hardware, and web projects</li>
+                    <li> Write documentation and READMEs so others can follow and run the work </li>
+                </li>
+                <li><b>Inspirit AI</b> 
+                    <li>Trained and evaluated machine learning models in Python using Google Colab </li>
+                    <li>Worked through feeding in data, tuning the model, and measuring performance</li>
+                </li>
+            </ul>
+        </section>
+        
+        <section id="enrichment">
+            <h2>Academic Enrichment Programs</h2>
+            <ul>
+                <li><b>Columbia University Science Honors Program (SHP)</b> 
+                    <li>Selected into Columbia's competitive weekend STEM program for high schoolers</li>
+                    <li>Completed 2 courses: Bioengineering Design, Applied Data Structures in Python</li>
+                    <li>In Applied Data Structures in Python, learned how to organize and manipulate data using structures like lists, stacks, queues, dictionaries, and trees, and how the choice of structure affects efficiency</li>
+                    <li>Practiced writing cleaner, more efficient algorithms and thinking about time and space tradeoffs</li>
+                    <li>In Bioengineering Design, explored how engineering principles apply to biological and medical problems, from designing solutions to evaluating how they perform</li>
+                </li>
+                <li><b>BWSI MIT Spring Program</b> 
+                <li>Completed two courses: Aspiring Engineers and Digital Logic and Computer Design</li>
+                <li>In Aspiring Engineers, explored AI, machine learning, and internet infrastructure, and got hands-on with web hosting and collaboration tools like GitHub and Deepnote</li>
+                <li>In Digital Logic and Computer Design, worked through the Nand2Tetris approach, building a computer from the ground up starting with basic logic gates</li>
+                <li>Learned how simple gates like AND, OR, and NOT combine into adders, multiplexers, and other building blocks, then built up to an ALU, memory, and the core pieces of a working CPU</li>
+                <li><b>Girls Who Code Pathways Program</b> 
+                    <li>Learned cybersecurity, web development, and machine learning </li>
+                    <li>Built hands-on projects in Python, HTML, CSS, and JavaScript</li>
+                    <li>Capped by an immersion experience at JP Morgan</li>
+                </li>
+            </ul>
         </section>
         
         <section id="links">
             <h2>Links</h2>
             <ul>
-                <li><a href="https://github.com/Coder2028-tech" target="_blank">GitHub</a></li>
-                <li><a href="Riya Laheja CV.pdf" target="_blank">My Resume</a></li>
+                <li><a href="https://github.com/Coder2028-tech" target="_blank">GitHub Profile</a></li>
+                <li><a href="Resume Riya Vazirani Laheja (CV) - shortened (1).pdf" target="_blank">My Resume</a></li>
             </ul>
         </section>
         
         <footer>
-            <p>Contact me at: <span id="email">riya.v.laheja@gmail.com</span></p>
+            <p>Contact me at: <span id="email">riya.v.laheja@gmail.com</span> | <span id="phone">908-295-7799</span></p>
+            <p>Basking Ridge, NJ | <a href="https://github.com/Coder2028-tech" target="_blank">GitHub</a></p>
         </footer>
     </div>
 </body>

@@ -1,62 +1,73 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title> Riya Laheja</title>
-    <link href="styles.css" rel="stylesheet" />
-     <link href="styles.css" rel="stylesheet" />
- <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <h1 style = "color: black";>Who Is Riya?</h1>
-    <script src="script.js"></script>
-    <div class = "tab container">
-      <a href = "index.html" class = "tab">Home</a> <!-- href means it is not moving-->
-      <a href = "passions.html" class = "tab">Passions, Hobbies, Interests</a>
-      <a href= "extracur.html" class = "tab">Extracurriculars</a>
-      <a href= "school.html" class = "tab active">School Courses</a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riya Laheja - School Courses</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="profile.jpg" alt="Riya Laheja" class="profile-pic">
+            <h1>Riya Laheja</h1>
+            <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+        </header>
+        
+        <div class="tab-container">
+            <a href="index.html" class="tab">Home</a>
+            <a href="aboutme.html" class="tab">About Me</a>
+            <a href="extracur.html" class="tab">Extracurriculars</a>
+            <a href="school.html" class="tab active">Education</a>
+        </div>
+        
+        <div class="content">
+            <section>
+                <h2>Education</h2>
+                <p><b>Ridge High School</b> | Basking Ridge, NJ</p>
+                <p>Expected Graduation: June 2028 | Weighted GPA: 4.66 | Principal's Honor Roll</p>
+                <br>
+                <h3>Freshman Year Courses</h3>
+                <ul>
+                    <li><b>Honors Algebra II</b> - Grade: A+</li>
+                    <li><b>Honors Spanish II</b> - Grade: A+</li>
+                    <li><b>Honors Biology</b> - Grade: A+</li>
+                    <li><b>Chamber Orchestra</b> - Grade: A+</li>
+                    <li><b>Computer Science Principles</b> - Grade: A+</li>
+                    <li><b>Gym</b> - Grade: A+</li>
+                    <li><b>Health</b> - Grade: A+</li>
+                    <li><b>Honors Global History II</b> - Grade: A</li>
+                    <li><b>Honors English 9</b> - Grade: A</li>
+                </ul>
+                <br>
+                <h3>Sophomore Year Courses</h3>
+                <ul>
+                    <li><b>Honors Precalculus</b> - Grade: A+</li>
+                    <li><b>Honors Spanish III</b> - Grade: A+</li>
+                    <li><b>Honors Chemistry</b> - Grade: A+</li>
+                    <li><b>AP Physics I</b> - Grade: A</li>
+                    <li><b>Gym</b> - Grade: A+</li>
+                    <li><b>Honors US History</b> - Grade: A</li>
+                    <li><b>Honors American Literature</b> - Grade: A</li>
+                </ul>
+                <br>
+                <h3>STEM Classes</h3>
+                <ul>
+                    <li>AP Physics 1, Honors Precalculus, Honors Chemistry, Honors Biology, Honors Algebra II, Computer Science Principles</li>
+                </ul>
+                <br>
+                <h3>Clubs & Leadership</h3>
+                <ul>
+                    <li>Girls Who Code (VP), Science League (Chem/Bio/Olympiad), Amnesty International (President), Mu Alpha Theta Honors Society, Comp Sci Club (Education), STEMxx (President), Business Club (Officer)</li>
+                </ul>
+                <br>
+                <h3>Other Activities</h3>
+                <ul>
+                    <li>JV Soccer (midfield), Violin (Pit Orchestra - Cinderella The Musical, Chamber Orchestra)</li>
+                </ul>
+            </section>
+        </div>
     </div>
-    <div class = "content"> <!-- Container for tab buttons-->
-      <div id = "School Courses" class="tab-content"")"><h1>Welcome to all about the courses I take in school</h1>
-      <h2>The following is a list of the courses I took in my freshman year of school and my average grade: </h2>
-        <ul>
-          <li><b>Honors Algebra II</b></li>
-          Grade: A+
-          <li><b>Honors Spanish II</b></li>
-          Grade: A+
-          <li><b>Honors Biology</b></li>
-          Grade: A+
-          <li><b>Chamber Orchestra</b></li>
-          Grade: A+
-          <li><b>Computer Science Principles</b></li>
-          Grade: A+
-          <li><b>Gym</b></li>
-          Grade: A+
-          <li><b>Health</b></li>
-          Grade: A+
-          <li><b>Honors Global History II</b></li>
-          Grade: A
-          <li><b>Honors English 9</b></li>
-          Grade: A
-        </ul>
-        <h2>The following is a list of the courses I took in my sophomore year of school and my average grade as of now: </h2>
-        <ul>
-          <li><b>Honors Precalculus</b></li>
-          Grade: A+
-          <li><b>Honors Spanish III</b></li>
-          Grade: A+
-          <li><b>Honors Chemistry</b></li>
-          Grade: A
-          <li><b>AP Physics I</b></li>
-          Grade: A-
-          <li><b>Gym</b></li>
-          Grade: A+
-          <li><b>AP US History</b></li>
-          Grade: A
-          <li><b>Honors American Literature</b></li>
-          Grade: A
-        </ul>
-        <img src = "school.jpeg" class = "school-img" width = 300px>
-      </div> <!--content for this section-->
-    </div>
-  </body>
+</body>
 </html>

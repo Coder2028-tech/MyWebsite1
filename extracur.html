@@ -1,51 +1,112 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title> Riya Laheja</title>
-    <link href="styles.css" rel="stylesheet" />
-     <link href="styles.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <h1 style = "color: black";>Who Is Riya?</h1>
-    <script src="script.js"></script>
-    <div class = "tab container">
-      <a href = "index.html" class = "tab">Home</a> <!-- href means it is not moving-->
-      <a href = "passions.html" class = "tab">Passions, Hobbies, Interests</a>
-      <a href= "extracur.html" class = "tab active">Extracurriculars</a>
-      <a href= "school.html" class = "tab">School Courses</a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riya Laheja - Extracurriculars</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="profile.jpg" alt="Riya Laheja" class="profile-pic">
+            <h1>Riya Laheja</h1>
+            <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+        </header>
+        
+        <div class="tab-container">
+            <a href="index.html" class="tab">Home</a>
+            <a href="aboutme.html" class="tab">About Me</a>
+            <a href="extracur.html" class="tab active">Extracurriculars</a>
+            <a href="school.html" class="tab">Education</a>
+        </div>
+        
+        <div class="content">
+            <section>
+                <h2>Leadership and Extracurriculars</h2>
+                <ul>
+                    <li>
+                        <b>Girls Who Code (Vice President)</b>
+                        <li>Led and taught Python, AI, and web development workshops for elementary and middle schoolers </li>
+                        <li>Helped run meetings and coordinate club activities</li>
+                        <li>Fundraised and brought in guest speakers</li>
+                        <li>Promoted the club within the school to grow membership</li>
+                        <img src="coding.jpeg" class="coding-image" alt="Coding">
+                    </li>
+                    <li>
+                        <b>STEMxx (President)</b>
+                        <li>Run meetings and manage the club's social media</li>
+                        <li>Organize hands-on labs for members</li>
+                        <li>Put together informational slideshows to teach club topics</li>
+                    </li>
+                    <li>
+                        <b>Amnesty International (President)</b>
+                        <li>Led meetings and coordinated club activities</li>
+                        <li>Planned and organized AmnesTEA, a fundraising event with a live auction, food, tea, and other beverages</li>
+                        <li>Raised over $600 for donation</li>
+                    </li>
+                     <li>
+                        <b>Computer Science Club (Education Director)</b>
+                        <li>Created and taught two web development workshops and a Python workshop for club members</li>
+                        <li>Built CS lessons for members of all skill levels during workshop cycles</li>
+                        <li>Previously served as Fundraising Coordinator, managing T-shirt orders and production</li>
+                    </li>
+                    <li>
+                        <b>Business Club (Officer)</b>
+                        <li>Help run business competitions and related events for club members</li>
+                        <li>Assist with organizing and coordinating club activities</li>
+                    </li>
+                    <li>
+                        <b>The Start Small Movement (Co-Founder)</b>
+                        <li>Launched an initiative to support female-owned small businesses </li>
+                        <li>Provide social media support, content creation, and outreach</li>
+                        <li>Help with blogs, website planning, and other digital needs</li>
+                        <li><a href="https://thestartsmallmovement.com/" target="_blank">Visit The Start Small Movement Website</a></li>
+                    </li>
+                    <li>
+                        <b>Storming Robots</b>
+                        <li>Advanced robotics and algorithms program focused on problem-solving and deep logic</li>
+                        <li>Developed several C/C++ projects emphasizing recursion and search/sort algorithms</li>
+                        <li>Practiced writing efficient, well-designed code</li>
+                        <img src="C++.jpeg" class="c-img" alt="C++">
+                    </li>
+                    <li>
+                        <b>Science Olympiad</b>
+                        <li>Selected to compete at the regional level </li>
+                        <li>Events: CAD and Codebusters</li>
+                    </li>
+                    <li>
+                        <b>VSY (Vedic Samaj Youth) - Director of Web Development</b>
+                        <li>Maintain and develop the organization's website</li>
+                        <li>Taught and led a coding camp for elementary and middle schoolers learning Python</li>
+                    </li>
+                    <li>
+                        <b>WHEELS (non-profit)</b>
+                        <li>Summer intern: Published 4 blogs - different types of health awareness globally.</li>
+                    </li>
+                    <li>
+                        <b>Group Counselor (Summer 2025)</b>
+                        <li>Selected as a group counselor at a summer camp for elementary school aged children</li>
+                        <li>Led daily activities and supervised a group of campers</li>
+                        <li>Built close bonds with the kids and helped create a positive, fun environment</li>
+                    </li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Honors & Awards</h2>
+                <ul>
+                    <li><b>Congressional App Challenge</b> - Honorable Mention for SymptoScan, a medical symptom detection app</li>
+                    <li><b>Bioleague: Top 5% in New Jersey (14th/276)</b></li>
+                    <li><b>Chem League: 1st/366</b></li>
+                    <li><b>Voice of Democracy (VFW)</b> - 1st place audio essay on patriotism - <a href="VFW Essay 2025.pdf" target="_blank">Read Essay</a></li>
+                    <li><b>Hackathons</b> - 1st place award in BRHS Hacks (2024), Top 8 at Ridge Hackathon (2025), Top 10 at Ridge Hackathon (2026)</li>
+                    <li><b>Volunteering</b> - 250 hour gold pin award at Ridge High School x 2</li>
+                    <li><b>Tae Kwon Do</b> - Second Degree Black Belt, selected for leadership program as an instructor</li>
+                </ul>
+            </section>
+        </div>
     </div>
-    <div class = "content"> <!-- Container for tab buttons-->
-    
-      <div id = "Extracurriculars" class="tab-content"")"><h1>Welcome to all about my extracurriculars</h1> 
-        <ol>
-          <li><b>Storming Robots</b></li>
-          <b>Description</b>: I love to code as it helps me learn practical skills and out of the box thinking. It is always so satisfying to achieve a specified result or when your code actually works. It always fuels me up to understand how things work and practice my logic based thinking. I also love how we can use coding to solve real world problems and apply it to daily life. At Storming Robots we are assigned cool projects to make from using soley C/C++. I have been doing this for the past 2 years and I really like learning it.
-          <img src = "C++.jpeg" class = "c-img" width = 300px> 
-          <li><b>Girls Who Code</b></li>
-          <b>Description</b>: My passion for coding has also led to me to the Girls Who Code club which helps me teach other girls who are younger than me how to code and why it is so interesting and fascinating. I love working with fellow Girls Who Code members helping to educate girls of all ages.
-          <img src = "coding.jpeg" class = "coding-image" width = 300px> 
-          <li><b>Learn To Be</b></li>
-          <b>Description</b>: I love to tutor children in math. I do this weekly and I tutor 3 children in the subjects of multiplication, rounding, and fractions. We go in depth in solving math problems and I help them learn logic and real world thinking skills. 
-          <li><b>Soccer</b></li>
-          <b>Description</b>: During the fall season I play soccer and I was on the soccer team in 7th and 8th grade at my middle school. In highschool I made the Junior Varsity (JV) team and we were undefeated throughout the season. I love to play soccer because it gives me a feeling of joy. 
-          <li><b>Tae Kwon Do</b></li>
-          <b>Description</b>: Throughout the year I do Tae Kwon Do at Top Mixed Martial Arts (TMMA). Here we learn discipline of the mind, and body and also how to actively keep defend ourselves in an unsafe situation. I have been doing this since I was the age of 5 and I am still continuing even when I am in highschool. I currently have my first degree black belt and am working towards my second.
-          <li><b>Violin</b></li>
-          <b>Description</b>: I love playing the violin with the school orchestra at Ridge and I also love to practice at home or with my private violin teacher. I addidionally play the violin in the orchestra for the play, called the pit orchestra. I additionally tutor one child in the violin through a mentorship program. The violin allows me to escape from the realities of life and helps me cope with emotions and gets me through stressful periods of my life.
-          <img src = "music.jpeg" class = "music-img" width = 300px>
-          <li><b>Bioleague</b></li>
-          <b>Description</b>: I do science league competitions, currently I am in Bioleague.
-          <li><b>Model UN</b></li>
-           <b>Description</b>: I really like to participate in mock conferences in the Model UN club. We learn how to present our positions on different topics in a mannerous way. I really like learning this style of debate. 
-          <li><b>Mu Alpha Theta</b></li>
-           <b>Description</b>: I am a part of a math honors society as a freshman. In this club we participate in math competitions and fun math games. 
-          <li><b>Start Small</b></li>
-           <b>Description</b>: My friend and I started a passion project to help small businesses compete in a world dominated by larger corporations. We provide free help to them with our services and tecnology and business skills (since we are both interested in business in the real world).
-          <li><b>Tech Teens</b></li>
-           <b>Description</b>: I volunteer at the library as a Tech Teen. This means that I help seniors who have trouble with technology. Helping to fix their tech issues helps me get real world application skills and helps them walk away feeling satisfied and helped, their issue being solved.
-        </ol>
-      </div>
-    </div>
-  </body>
+</body>
 </html>
